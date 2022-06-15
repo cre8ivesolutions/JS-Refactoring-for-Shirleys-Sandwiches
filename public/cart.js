@@ -13,6 +13,7 @@ const cart = {
 
         // Empty the sandwichUl before adding any content to it.
         sandwichUl.innerHTML = '';
+        
 
         this.items.forEach((sandwich) => {
             const sandwichDiv = this.createSandwichCard(sandwich);
